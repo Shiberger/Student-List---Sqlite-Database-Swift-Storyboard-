@@ -16,6 +16,17 @@
 		AB36AC24292C06F600801F3F /* SqliteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36AC23292C06F600801F3F /* SqliteDemoTests.swift */; };
 		AB36AC2E292C06F600801F3F /* SqliteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36AC2D292C06F600801F3F /* SqliteDemoUITests.swift */; };
 		AB36AC30292C06F600801F3F /* SqliteDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36AC2F292C06F600801F3F /* SqliteDemoUITestsLaunchTests.swift */; };
+		AB36AC49292C0B0800801F3F /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36AC48292C0B0800801F3F /* AddStudentViewController.swift */; };
+		AB36AC4C292C0E1100801F3F /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB36AC4B292C0E1100801F3F /* StudentCell.swift */; };
+		ABA5E183292C123300F365AA /* SqliteDemo.db in Resources */ = {isa = PBXBuildFile; fileRef = ABA5E182292C123300F365AA /* SqliteDemo.db */; };
+		ABA5E191292C139200F365AA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E189292C139200F365AA /* FMDatabasePool.m */; };
+		ABA5E192292C139200F365AA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E18A292C139200F365AA /* FMResultSet.m */; };
+		ABA5E193292C139200F365AA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E18B292C139200F365AA /* FMDatabaseQueue.m */; };
+		ABA5E194292C139200F365AA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E18F292C139200F365AA /* FMDatabaseAdditions.m */; };
+		ABA5E195292C139200F365AA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E190292C139200F365AA /* FMDatabase.m */; };
+		ABA5E197292C141800F365AA /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E196292C141800F365AA /* Util.swift */; };
+		ABA5E199292C16E700F365AA /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E198292C16E700F365AA /* StudentModel.swift */; };
+		ABA5E19B292C171900F365AA /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5E19A292C171900F365AA /* ModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +54,30 @@
 		AB36AC13292C06F500801F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB36AC15292C06F500801F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB36AC18292C06F500801F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AB36AC1A292C06F500801F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB36AC1A292C06F500801F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "SqliteDemo/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 		AB36AC1F292C06F600801F3F /* SqliteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB36AC23292C06F600801F3F /* SqliteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDemoTests.swift; sourceTree = "<group>"; };
 		AB36AC29292C06F600801F3F /* SqliteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB36AC2D292C06F600801F3F /* SqliteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDemoUITests.swift; sourceTree = "<group>"; };
 		AB36AC2F292C06F600801F3F /* SqliteDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB36AC48292C0B0800801F3F /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		AB36AC4B292C0E1100801F3F /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		ABA5E182292C123300F365AA /* SqliteDemo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = SqliteDemo.db; sourceTree = "<group>"; };
+		ABA5E185292C139200F365AA /* SqliteDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SqliteDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABA5E186292C139200F365AA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		ABA5E187292C139200F365AA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		ABA5E188292C139200F365AA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		ABA5E189292C139200F365AA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		ABA5E18A292C139200F365AA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		ABA5E18B292C139200F365AA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		ABA5E18C292C139200F365AA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		ABA5E18D292C139200F365AA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		ABA5E18E292C139200F365AA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		ABA5E18F292C139200F365AA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		ABA5E190292C139200F365AA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		ABA5E196292C141800F365AA /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		ABA5E198292C16E700F365AA /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		ABA5E19A292C171900F365AA /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +128,11 @@
 		AB36AC0B292C06F500801F3F /* SqliteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AB36AC0C292C06F500801F3F /* AppDelegate.swift */,
-				AB36AC0E292C06F500801F3F /* SceneDelegate.swift */,
-				AB36AC10292C06F500801F3F /* ViewController.swift */,
-				AB36AC12292C06F500801F3F /* Main.storyboard */,
-				AB36AC15292C06F500801F3F /* Assets.xcassets */,
-				AB36AC17292C06F500801F3F /* LaunchScreen.storyboard */,
-				AB36AC1A292C06F500801F3F /* Info.plist */,
+				AB36AC3F292C079C00801F3F /* Supporting Files */,
+				AB36AC3E292C079500801F3F /* Model */,
+				AB36AC3D292C078F00801F3F /* View */,
+				AB36AC3C292C078800801F3F /* Controller */,
+				AB36AC40292C07A500801F3F /* Helper */,
 			);
 			path = SqliteDemo;
 			sourceTree = "<group>";
@@ -125,6 +152,90 @@
 				AB36AC2F292C06F600801F3F /* SqliteDemoUITestsLaunchTests.swift */,
 			);
 			path = SqliteDemoUITests;
+			sourceTree = "<group>";
+		};
+		AB36AC3C292C078800801F3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB36AC10292C06F500801F3F /* ViewController.swift */,
+				AB36AC48292C0B0800801F3F /* AddStudentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB36AC3D292C078F00801F3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB36AC4A292C0DE500801F3F /* Cell */,
+				AB36AC41292C07BA00801F3F /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB36AC3E292C079500801F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABA5E182292C123300F365AA /* SqliteDemo.db */,
+				ABA5E196292C141800F365AA /* Util.swift */,
+				ABA5E198292C16E700F365AA /* StudentModel.swift */,
+				ABA5E19A292C171900F365AA /* ModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB36AC3F292C079C00801F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB36AC0C292C06F500801F3F /* AppDelegate.swift */,
+				AB36AC0E292C06F500801F3F /* SceneDelegate.swift */,
+				AB36AC15292C06F500801F3F /* Assets.xcassets */,
+				AB36AC1A292C06F500801F3F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB36AC40292C07A500801F3F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ABA5E184292C136800F365AA /* FMDB */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AB36AC41292C07BA00801F3F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB36AC12292C06F500801F3F /* Main.storyboard */,
+				AB36AC17292C06F500801F3F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AB36AC4A292C0DE500801F3F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB36AC4B292C0E1100801F3F /* StudentCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ABA5E184292C136800F365AA /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ABA5E18E292C139200F365AA /* FMDatabase.h */,
+				ABA5E190292C139200F365AA /* FMDatabase.m */,
+				ABA5E187292C139200F365AA /* FMDatabaseAdditions.h */,
+				ABA5E18F292C139200F365AA /* FMDatabaseAdditions.m */,
+				ABA5E186292C139200F365AA /* FMDatabasePool.h */,
+				ABA5E189292C139200F365AA /* FMDatabasePool.m */,
+				ABA5E18C292C139200F365AA /* FMDatabaseQueue.h */,
+				ABA5E18B292C139200F365AA /* FMDatabaseQueue.m */,
+				ABA5E188292C139200F365AA /* FMDB.h */,
+				ABA5E18D292C139200F365AA /* FMResultSet.h */,
+				ABA5E18A292C139200F365AA /* FMResultSet.m */,
+				ABA5E185292C139200F365AA /* SqliteDemo-Bridging-Header.h */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +306,7 @@
 				TargetAttributes = {
 					AB36AC08292C06F500801F3F = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					AB36AC1E292C06F600801F3F = {
 						CreatedOnToolsVersion = 14.1;
@@ -231,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA5E183292C123300F365AA /* SqliteDemo.db in Resources */,
 				AB36AC19292C06F500801F3F /* LaunchScreen.storyboard in Resources */,
 				AB36AC16292C06F500801F3F /* Assets.xcassets in Resources */,
 				AB36AC14292C06F500801F3F /* Main.storyboard in Resources */,
@@ -258,6 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA5E197292C141800F365AA /* Util.swift in Sources */,
+				ABA5E199292C16E700F365AA /* StudentModel.swift in Sources */,
+				AB36AC4C292C0E1100801F3F /* StudentCell.swift in Sources */,
+				ABA5E193292C139200F365AA /* FMDatabaseQueue.m in Sources */,
+				ABA5E191292C139200F365AA /* FMDatabasePool.m in Sources */,
+				ABA5E195292C139200F365AA /* FMDatabase.m in Sources */,
+				ABA5E192292C139200F365AA /* FMResultSet.m in Sources */,
+				AB36AC49292C0B0800801F3F /* AddStudentViewController.swift in Sources */,
+				ABA5E19B292C171900F365AA /* ModelManager.swift in Sources */,
+				ABA5E194292C139200F365AA /* FMDatabaseAdditions.m in Sources */,
 				AB36AC11292C06F500801F3F /* ViewController.swift in Sources */,
 				AB36AC0D292C06F500801F3F /* AppDelegate.swift in Sources */,
 				AB36AC0F292C06F500801F3F /* SceneDelegate.swift in Sources */,
@@ -435,16 +558,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y6YHXN8B7Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SqliteDemo/Info.plist;
+				INFOPLIST_FILE = "SqliteDemo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +576,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hannarong.tonkra.SqliteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SqliteDemo/Helper/FMDB/SqliteDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,16 +588,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y6YHXN8B7Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SqliteDemo/Info.plist;
+				INFOPLIST_FILE = "SqliteDemo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,8 +606,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hannarong.tonkra.SqliteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SqliteDemo/Helper/FMDB/SqliteDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
